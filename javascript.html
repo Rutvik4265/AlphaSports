@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h3>This is Javascript</h3>
+        <p id="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta, possimus ratione quia vel ut dicta vero ex in commodi, eligendi nesciunt repellat.</p>
+        <button id="btn" onclick="toggleHide()">Show/Hide</button>
+        <script>
+            let container=document.getElementById('container');
+            container.addEventListener('mouseover',function run(){
+                console.log('Mouse Inside')
+            });
+            // function toggleHide(){
+            // let btn=document.getElementById('btn');
+            // if(container.style.display != 'none'){
+                // container.style.display='none';
+            // }
+            // else
+            // {
+                // container.style.display='block';
+            // }    
+            //  }
+        </script>
+</body>
+</html>

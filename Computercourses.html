@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Courses</title>
+    <style>
+        body{
+            background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+            background-position: center/cover;  
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            font-family: cursive;
+        }
+       ul li{
+           border: 2px solid black;
+            background-color: darkgoldenrod;
+            list-style: none;
+            display: inline;
+            margin-left:231px ;
+            margin-right: -182px;
+        }
+        li:hover{
+            background-color: rgb(6, 107, 65);
+        }
+        .button button{
+            margin-left: 1300px;
+            margin-right: -1300px;
+        }
+        .heading{
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+        }
+        #h1{
+            width: 1054px;
+        }
+        #h2{
+            width: 1155px;
+        }
+        #h3{
+            width: 764px;
+        }
+        .para{
+            display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+        }
+        #p1{
+            border: 2px solid black;
+               width: 29%;
+               margin-left:-109px ;
+        }
+        #p2{
+            border: 2px solid black;
+               width: 29%;
+               margin-left:-109px ;
+        }
+        #p3{
+            border: 2px solid black;
+               width: 29%;
+               margin-left:-109px ;
+        }
+        /* #h1{ */
+            /* border: 2px solid black; */
+        /* } */
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="list">
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">About</a></li>
+            <li><a href="#" target="_blank">Services</a></li>
+            <li><a href="#" target="_blank">Help</a></li>
+        </ul>
+    </nav>
+    <div class="button">
+        <button>Contact</button>
+        <button>Know More</button>
+    </div>
+    <div class="heading">
+        <h3 id="h1">HTML</h3>
+        <h3 id="h2">CSS</h3>
+        <h3 id="h3">JavaScript</h3>
+    </div>
+    <div class="para">
+<p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In laboriosam illo nisi corrupti error libero quam aliquid numquam magni, nam hic fuga repellat iure dolor distinctio dolore neque minima natus ullam explicabo reprehenderit? Rem?</p>
+<p id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet omnis, fuga sed vero voluptatum cupiditate modi. Pariatur mollitia atque porro reprehenderit unde ipsam earum distinctio aliquid! Laboriosam, rem. Saepe error possimus iusto aliquid explicabo.</p>
+<p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur, corporis eveniet, consectetur, nisi veritatis labore quibusdam quas et commodi deserunt repellendus! Cupiditate odit laboriosam nihil a sint dignissimos rerum ut minus. Itaque, officia.</p>
+    </div>
+<h1>More Languages like</h1>
+<div class="img">
+    <img src="D:\RHTML\Clanguage.jpg" width="30%" height="30%"><br>
+    <h3>C language</h3>
+    <img src="D:\RHTML\fahrul-razi-BR6lrzCPYPk-unsplash.jpg" width="30%" height="30%"><br>
+    <h3>Python Language</h3>
+</div>
+<h3>Fill the form for courses</h3>
+<form action="backnd.php">
+    <label for="Name">Name</label><br>
+    <input type="text" name="Name" placeholder="Enter your name"><br>
+    <label for="Age">Age</label><br>
+    <input type="number"><br>
+    <label for="Gender">Gender</label><br>
+    <input type="radio" name="Radio">Male
+    <input type="radio" name="Radio">Female<br>
+    <label for="Email">Email</label><br>
+    <input type="email" name="Email" placeholder="email@abc.com"><br>
+    <label for="Options">What are you learning right now?</label><br>
+    <select name="Language">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Python">Python</option>
+    </select><br>
+    <label for="Chckbox">I agree to submit all info</label><br>
+    <input type="checkbox" name="Checkbox"><br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</form>
+</body>
+</html>
